@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+body{
+  display: flex;
+ justify-content:center ;
+ align-items: center;
+ height: 100vh; 
+ text-align: center;
+ background-color: hsl(218, 23%, 16%);
+}
+.container{
+  width: 500px;
+  height: 350px;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 25px;
+  padding: 30px;
+}
+.number{
+  font-size: 18px;
+  margin-top: 10px;
+  color: hsl(150, 100%, 66%);
+  margin-bottom: 30px;
+}
+span{
+  font-size: 28px; 
+  color: rgb(223, 224, 226);
+}
+.divider img{
+  margin-top: 40px;
+}
+.mob {
+  display: none;
+}
+.button-area{
+  width: 60px;
+  height: 60px;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50px;
+  left: 1257px;
+  top: 800px;
+  position: absolute;
+}
+.button-area :hover{
+  box-shadow: 0 0 30px hsl(150, 100%, 66%), 0 0 40px hsl(150, 100%, 66%), 0 0 40px hsl(150, 100%, 66%);
+}
+.button-area img{
+height: 25px;
+margin-top: -1px;
+margin-bottom: -5px;
+margin-left: -2px;
+margin-right: -2px;
+background-color:hsl(150, 100%, 66%);
+}
+.button-area button{
+  margin-top: 17px;
+  cursor: pointer;
+}
+
+
+
+
+
+@media only screen and (max-width: 1440px){
+  .button-area{
+    left: 697px;
+    top: 760px;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .button-area{
+    left: 487px;
+    top: 760px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .button-area{
+    left: 357px;
+    top: 760px;
+  }
+ 
+}
+@media only screen and (max-width: 425px){
+.container{
+  width: 350px;
+}
+.divider img{
+  width: 270px;
+}
+.button-area{
+  left: 187px;
+  top: 760px;
+}}
+
+@media only screen and (max-width: 375px){
+  .container{
+    width: 330px;
+  }
+  .divider img{
+    width: 270px;
+  }
+  .button-area{
+    left: 163px;
+    top: 760px;
+  }
+}
+  @media only screen and (max-width: 2560px){
+  .button-area{
+    left: 1257px;
+    top: 960px;
+  }
+}
